@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Research Assistant</title>
+    <link rel="stylesheet" href="sidepanel.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Research Assistant</h2>
+      </div>
+      <div class="actions">
+        <button id="summarizeBtn">Summarize</button>
+      </div>
+       <div id="results">
+        <img
+          id="loader"
+          src="loading.webp"
+          alt="Loading..."
+          style="display: none; width: 40px; height: 40px"
+        />
+        <div id="resultContent"></div>
+      </div>
+      <div class="notes">
+        <h3>Research Notes</h3>
+        <textarea id="notes" placeholder="Take notes here"></textarea>
+        <div class="notes-buttons">
+          <button id="saveNotesBtn">Save Notes</button>
+          <button id="deleteNotesBtn">Delete Notes</button>
+        </div>
+      </div>
+
+     
+    </div>
+    <div id="toast" class="toast"></div>
+
+    <script src="sidepanel.js"></script>
+  </body>
+</html>
