@@ -1,5 +1,5 @@
 {
-  "name": "Research Assistant",
+  "name": "ResearchWhiz — smart research assistant",
   "description": "AI-Powered Research Assistant",
   "version": "1.0",
   "manifest_version": 3,
@@ -10,7 +10,7 @@
          "scripting"
   ],
   "action": {
-    "default_title":"Research Assistant",
+    "default_title":"ResearchWhiz — smart research assistant",
     "default_icon":"logo.png"
   },
   "side_panel":{
